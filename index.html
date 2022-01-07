@@ -1,17 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Roboto:wght@100&family=Rubik:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Murecho:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Future4 Bank</title>
+
+    <!--FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Murecho:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--CSS3-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Future4 Bank - Home</title>
 </head>
-<body>
-    
-    <section id="secao-0-taxa" role="navigation">
+
+<body class="pg">
+
+    <!--HEADER-->
+    <React.Fragment></React.Fragment>
+    <header class=" pg__head ">
+        <a class="links head__itemsContainer " href="#head ">
+            <h1 class="titles head__title ">Future 4 Bank</h1>
+            <img class="head__icon " src="./assets/images/f4bank-icon.png " alt="Icone do banco Future 4 ">
+        </a>
+    </header>
+  
+    <!--MENU-->
+    <nav class="toggle-desk menu-desk">
+        <ul class="menu__itemsContainer">
+            <li>
+                <a href="#" class="links texts menu-items">serviços</a>
+            </li>
+            <li>
+                <a href="#" class="links texts menu-items">contatos</a>
+            </li>
+            <li>
+                <a href="#" class="links texts menu-items">cadastro</a>
+            </li>
+            <li>
+                <a href="#" class="links texts menu-items">perfil</a>
+            </li>
+        </ul>
+    </nav>
+    <button type="button" class="toggle-hamb menu-mobile">
+        <React.Fragmet class="hamb-bars"></React.Fragmet>
+        <React.Fragmet class="hamb-bars"></React.Fragmet>
+        <React.Fragmet class="hamb-bars"></React.Fragmet>
+    </button>
+
+    <!--MAIN-CONTENT-->
+    <main class="pg__mainContent ">
+        <section class="mainContent__home ">
+            <h2 class="subtitles home__title ">Tradição e inovação no seu bolso!</h2>
+            <React.Fragment class="home__textAndImageContainer ">
+                <img class="home__image " src="./assets/images/pessoa-sorrindo.jpg " alt="Pessoa sorrindo e mexendo confiante no celular ">
+                <p class="texts home__text ">Sejam bem vidos a nossa página, somos uma empresa focada em facilitar seu planejamento e gerenciamento financeiro.</p>
+            </React.Fragment>
+        </section>
+        <section id="secao-0-taxa" role="navigation">
         <h2>0% de taxa!</h2>
         <div class="container1">
             <img class="imagens" src="./assets/imagens/zero taxa.jpg" alt="imagem referente a 0% de taxa">
@@ -26,6 +78,10 @@
             <p>Afim de curtir aquele cartão todo lindoso e com anuidade R$ 0??? AQUI VOCÊ TEM!!!</p>
         </div>
     </section>
-    
+    </main>
+
+    <!--FOOTER-->
+
 </body>
+
 </html>
